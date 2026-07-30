@@ -1,0 +1,100 @@
+Equation No. 1 --> valid
+Postfix: 5 3 + 
+Result = 8
+
+Equation No. 2 --> valid
+Postfix: 8 2 - 
+Result = 6
+
+Equation No. 3 --> valid
+Postfix: 4 6 * 
+Result = 24
+
+Equation No. 4 --> valid
+Postfix: 20 5 / 
+Result = 4
+
+Equation No. 5 --> valid
+Postfix: 2 3 4 * + 
+Result = 14
+
+Equation No. 6 --> valid
+Postfix: 2 3 + 4 * 
+Result = 20
+
+Equation No. 7 --> valid
+Postfix: 2 3 + 4 1 - * 
+Result = 15
+
+Equation No. 8 --> valid
+Postfix: -5 2 + 
+Result = -3
+
+Equation No. 9 --> valid
+Postfix: 35 21 + 
+Result = 56
+
+Equation No. 10 --> valid
+Postfix: 3 4 2 1 - * + 
+Result = 7
+
+Equation No. 11 --> valid
+Postfix: 10 3 - 2 1 + / 
+Result = 2
+
+Equation No. 12 --> valid
+Postfix: 8 
+Result = 8
+
+Equation No. 13 --> valid
+Postfix: 2 3 4 5 * + * 
+Result = 46
+
+Equation No. 14 --> invalid: Invalid: empty brackets
+
+Equation No. 15 --> invalid: Invalid: expression starts with operator '*'
+
+Equation No. 16 --> invalid: Invalid: two operators '+' and '+'
+
+Equation No. 17 --> invalid: Invalid: two operators '-' and '*'
+
+Equation No. 18 --> invalid: Invalid: two operators '*' and '*'
+
+Equation No. 19 --> invalid: Invalid: two operators '/' and '/'
+
+Equation No. 20 --> invalid: Invalid: unclosed opening bracket '('
+
+Equation No. 21 --> invalid: Invalid: closing bracket ')' without opening bracket
+
+Equation No. 22 --> invalid: Invalid: unclosed opening bracket '('
+
+Equation No. 23 --> invalid: Invalid: closing bracket ')' without opening bracket
+
+Equation No. 24 --> invalid: Invalid: empty brackets
+
+Equation No. 25 --> invalid: Invalid: empty brackets
+
+Equation No. 26 --> invalid: Invalid: character 'a' is not allowed
+
+Equation No. 27 --> invalid: Invalid: character 'a' is not allowed
+
+Equation No. 28 --> invalid: Invalid: character '@' is not allowed
+
+Equation No. 29 --> valid
+Postfix: 52 1 + 
+Result = 53
+
+Equation No. 30 --> valid
+Postfix: 314 2 + 
+Result = 316
+
+Equation No. 31 --> invalid: Invalid: missing operator between '5' and '('
+
+Equation No. 32 --> invalid: Invalid: missing operator between ')' and '4'
+
+Equation No. 33 --> invalid: Invalid: closing bracket ')' without opening bracket
+
+Equation No. 34 --> invalid: Invalid: two operators '+' and '*'
+
+Equation No. 35 --> invalid: Invalid: two operators '/' and '*'
+
